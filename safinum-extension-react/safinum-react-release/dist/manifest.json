@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "SAFINUM Langues",
+  "version": "0.1.0",
+  "description": "Traduit l'interface d'un service financier numérique dans une langue locale et explique chaque étape, sans modifier le site.",
+  "action": { "default_popup": "popup.html", "default_title": "SAFINUM Langues" },
+  "background": { "service_worker": "service-worker.js", "type": "module" },
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["http://localhost:8000/*", "http://127.0.0.1:8000/*", "http://localhost:8080/*", "http://127.0.0.1:8080/*", "<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "safinum-core/privacy.js",
+        "safinum-core/extractor.js",
+        "safinum-core/observer.js",
+        "content.js"
+      ],
+      "css": ["display.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

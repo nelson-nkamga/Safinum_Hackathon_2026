@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "SAFINUM Langues",
+  "version": "0.2.0",
+  "description": "Traduction des services financiers numériques en langues nationales (modules 1 + 2).",
+  "host_permissions": ["http://127.0.0.1:8000/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["https://safinum.cm/hackathon-test*"],
+      "js": ["privacy.js", "extractor.js", "observer.js", "transport.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

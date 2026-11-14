@@ -1,0 +1,12 @@
+# Moteur de traduction (module 2)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.5
+ctranslate2>=4.0
+transformers>=4.40
+sentencepiece>=0.2
+huggingface_hub>=0.23
+openpyxl>=3.1          # export/import Excel pour la validation par les locuteurs
+# tests
+pytest>=8
+httpx>=0.27

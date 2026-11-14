@@ -1,0 +1,36 @@
+# ── Environnements et dépendances (recréés par ./start.sh et npm) ─────────────
+.venv/
+node_modules/
+
+# ── Modèles Marian (~310 Mo) — re-téléchargeables :
+#    cd safinum-module2 && .venv/bin/python scripts/download_model.py
+safinum-module2/models/
+
+# ── Ancien artefact pré-construit (gardé localement uniquement ;
+#    le build à jour est safinum-extension-react/safinum-react-release/dist/) ──
+dist-prebuilt/
+
+# ── Caches et artefacts de build Python ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# ── Caches et journaux Node / Vite ───────────────────────────────────────────
+.vite/
+*.log
+npm-debug.log*
+
+# ── Données d'exécution (se régénèrent automatiquement à l'usage) ────────────
+unseen.jsonl
+
+# ── Fichiers générés (PDF régénérable : python3 docs/build_pdf.py) ───────────
+docs/NOTE_TECHNIQUE.html
+
+# ── Éditeurs et système ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>SAFINUM — test de bout en bout (module 1 + module 2)</title>
+  <style>
+    body { font: 16px system-ui; max-width: 680px; margin: 32px auto; padding: 0 16px; color: #1a1a2e; }
+    h1 { color: #2D1B69; }
+    dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 16px; }
+    dt { font-weight: 600; color: #444; }
+    dd { margin: 0; font-family: "DejaVu Sans Mono", monospace; color: #0e7490; }
+    label { display: block; margin: 8px 0; }
+    button { margin: 12px 8px 0 0; padding: 6px 12px; }
+    .box { border: 1px solid #ccc; border-radius: 8px; padding: 4px 16px; margin: 16px 0; }
+    .warn { color: #92400e; }
+    .legend { background: #f6f7fb; border-left: 4px solid #00BFFF; padding: 8px 14px; font-size: 14px; }
+    .legend b.vert { color: #15803d; } .legend b.orange { color: #b45309; }
+    pre { background: #f4f4f4; padding: 8px; font-size: 12px; overflow: auto; }
+  </style>
+  <!-- EXACTEMENT les mêmes fichiers que l'extension charge (dist/safinum-core) -->
+  <script src="../dist/safinum-core/privacy.js"></script>
+  <script src="../dist/safinum-core/extractor.js"></script>
+  <script src="../dist/safinum-core/observer.js"></script>
+</head>
+<body>
+  <h1>Transfert effectué</h1>
+  <p>Votre transfert a été envoyé avec succès.</p>
+
+  <div class="box">
+    <dl>
+      <dt>Bénéficiaire</dt><dd>Jean Dupont</dd>
+      <dt>Montant</dt><dd>50 000 FCFA</dd>
+      <dt>Téléphone</dt><dd>6 70 00 00 00</dd>
+      <dt>Référence</dt><dd>SAF-2026-0RGVFI</dd>
+    </dl>
+    <p>Bonjour, Jean Dupont</p>
+    <p>Frais de transfert : 500 FCFA</p>
+    <p>Vérifiez les informations avant de confirmer le transfert.</p>
+  </div>
+
+  <button id="confirm">Confirmer le transfert</button>
+  <button id="back">Retour</button>
+  <button id="cancel">Annuler</button>
+  <p id="alert" class="warn"><em>Attention : ne partagez jamais votre code secret avec une autre personne.</em></p>
+  <button id="inject">Faire apparaître un message dynamique</button>
+  <div id="live"></div>
+
+  <h2>Panneau de contrôle</h2>
+  <div class="legend">
+    Après avoir cliqué <b>Traduire (ewondo)</b>, en mode démonstration (brouillons « à relire ») :
+    <ul>
+      <li><b class="vert">Traduit en ewondo</b> : titre, message de succès, les 4 libellés (Bénéficiaire, Montant, Téléphone, Référence),
+          « Bonjour, Jean Dupont », « Frais de transfert : 500 FCFA », la phrase de vérification,
+          les boutons « Confirmer le transfert » et « Retour », et le message dynamique injecté.</li>
+      <li><b class="vert">Jamais modifiés</b> : « Jean Dupont », « 50 000 FCFA », « 6 70 00 00 00 », « SAF-2026-0RGVFI »
+          (données sensibles — masquées puis restituées à l'identique).</li>
+      <li><b class="orange">Restent en français volontairement</b> : « Annuler » (hors mémoire) et l'avertissement
+          « ne partagez jamais votre code secret » (alerte de sécurité : jamais traduite sans validation humaine).</li>
+    </ul>
+  </div>
+  <p>
+    <button id="on">Traduire (ewondo)</button>
+    <button id="off">Revenir au français</button>
+  </p>
+  <pre id="stats">—</pre>
+
+  <script>
+    // Réplique fidèle du « transport » de src/content/display.ts (chemin module 1) :
+    // payloads masqués du module 1 → API locale (module 2) → textes à jetons intacts.
+    const API = "http://127.0.0.1:8000";
+
+    async function transport(payloads) {
+      if (!payloads.length) return [];
+      const body = { target_language: "ewondo", texts: payloads.map((p) => ({ id: p.id, text: p.text, lang: p.lang ?? null, ctx: p.ctx ?? {} })) };
+      const res = await fetch(API + "/translate", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+      if (!res.ok) return [];
+      const data = await res.json();
+      return (data.translations ?? []).map((t) => ({ id: t.id, text: t.translated }));
+    }
+
+    const L = window.SafinumLang;
+    const stats = document.getElementById("stats");
+    function showStats(extra) {
+      const s = L.observer.stats();
+      stats.textContent = JSON.stringify({ ...s, ...extra }, null, 2);
+    }
+
+    document.getElementById("on").onclick = () => {
+      L.observer.start({ transport });
+      L.observer.setEnabled(true).then(() => showStats({ mode: "ewondo" }));
+    };
+    document.getElementById("off").onclick = () => {
+      L.observer.setEnabled(false).then(() => { L.observer.stop(); showStats({ mode: "français" }); });
+    };
+    // Message apparaissant APRÈS le chargement : prouve que l'observateur capte le dynamique.
+    document.getElementById("inject").onclick = () => {
+      const p = document.createElement("p");
+      p.textContent = "Veuillez confirmer votre opération.";
+      document.getElementById("live").appendChild(p);
+      showStats({ mode: "message dynamique" });
+    };
+  </script>
+</body>
+</html>

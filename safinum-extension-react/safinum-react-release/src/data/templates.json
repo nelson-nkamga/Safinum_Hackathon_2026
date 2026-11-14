@@ -1,0 +1,60 @@
+{
+  "notice": "Les informations sont reprises des champs du site. Ce panneau n'effectue aucune transaction.",
+  "notIndicated": "non indiqué",
+  "steps": [
+    {
+      "id": "transfer",
+      "title": "Transfert",
+      "intro": "Vous êtes sur le point d'effectuer une opération.",
+      "keywords": ["transfert", "virement", "envoyer", "beneficiaire", "destinataire"],
+      "fields": [
+        { "key": "beneficiaire", "label": "Bénéficiaire", "labels": ["beneficiaire", "destinataire"] },
+        { "key": "montant", "label": "Montant", "labels": ["montant"] },
+        { "key": "frais", "label": "Frais", "labels": ["frais"] },
+        { "key": "total", "label": "Total", "labels": ["total", "montant total"] }
+      ]
+    },
+    {
+      "id": "balance",
+      "title": "Consultation du solde",
+      "intro": "Vous consultez les informations de votre compte.",
+      "keywords": ["solde", "consulter mon solde"],
+      "fields": [
+        { "key": "solde", "label": "Solde", "labels": ["solde", "solde disponible"] }
+      ]
+    },
+    {
+      "id": "fees",
+      "title": "Vérification des frais",
+      "intro": "Vous consultez les frais applicables à une opération.",
+      "keywords": ["frais", "tarif", "commission"],
+      "fields": [
+        { "key": "montant", "label": "Montant", "labels": ["montant"] },
+        { "key": "frais", "label": "Frais", "labels": ["frais", "commission"] }
+      ]
+    },
+    {
+      "id": "login",
+      "title": "Connexion",
+      "intro": "Vous êtes sur l'écran de connexion. Saisissez vos identifiants uniquement sur le site officiel du service. Ce panneau ne lit ni ne conserve aucun mot de passe.",
+      "keywords": ["connexion", "se connecter", "mot de passe", "identifiant"],
+      "fields": []
+    },
+    {
+      "id": "register",
+      "title": "Inscription",
+      "intro": "Vous êtes sur l'écran d'inscription. Vous allez créer un compte en renseignant vos informations.",
+      "keywords": ["inscription", "creer un compte", "s'inscrire"],
+      "fields": []
+    },
+    {
+      "id": "generic",
+      "title": "Étape en cours",
+      "intro": "Voici l'écran affiché actuellement.",
+      "keywords": [],
+      "fields": [
+        { "key": "titre", "label": "Page", "labels": [] }
+      ]
+    }
+  ]
+}

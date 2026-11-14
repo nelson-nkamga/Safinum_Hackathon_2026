@@ -1,0 +1,28 @@
+:root { --ink: #1b2430; --muted: #5b6573; --line: #d6dae0; --accent: #f26b1d; --err: #b42318; }
+* { box-sizing: border-box; }
+body { width: 320px; margin: 0; font: 14px/1.45 system-ui, sans-serif; color: var(--ink); background: #fff; }
+main { padding: 14px 16px 16px; border-top: 4px solid var(--accent); }
+h1 { margin: 0; font-size: 17px; }
+h2 { margin: 12px 0 2px; font-size: 15px; }
+.muted { color: var(--muted); font-size: 12px; margin: 2px 0 0; }
+.switch { display: flex; align-items: center; gap: 10px; margin: 14px 0 12px; font-weight: 600; cursor: pointer; }
+.switch input { width: 18px; height: 18px; accent-color: var(--accent); }
+.field { display: block; margin-bottom: 4px; font-size: 12px; color: var(--muted); }
+select { width: 100%; padding: 7px 8px; font: inherit; border: 1px solid var(--line); border-radius: 6px; background: #fff; color: var(--ink); }
+.stats { min-height: 18px; margin: 10px 0 0; }
+.msg { min-height: 20px; margin: 6px 0 0; font-size: 12px; color: var(--err); }
+.actions { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+.actions.row { flex-direction: row; justify-content: flex-end; }
+button { font: inherit; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; background: #fff; color: var(--ink); cursor: pointer; }
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+button:disabled { opacity: .5; cursor: default; }
+:is(button, select, input):focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.mock { display: flex; gap: 8px; align-items: flex-start; margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+.mock input { margin-top: 2px; accent-color: var(--accent); }
+.understand p { margin: 6px 0; }
+.understand dl { margin: 8px 0; }
+.pair { display: grid; grid-template-columns: 90px 1fr; gap: 4px 12px; padding: 2px 0; }
+.pair dt { color: var(--muted); }
+.pair dd { margin: 0; font-weight: 600; word-break: break-word; }
+.pair dd.missing { font-weight: 400; font-style: italic; color: #8a93a0; }
+.notice { font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 8px; }

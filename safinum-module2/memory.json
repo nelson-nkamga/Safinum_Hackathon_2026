@@ -1,0 +1,1723 @@
+{
+ "meta": {
+  "version": 1,
+  "source_lang": "fr",
+  "comment": "Phrases de SAFINUM sous forme MASQUÉE (jetons du module 1). Statuts: todo | draft (proposé par le modèle) | validated (validé par un locuteur) | rejected. Le moteur n'utilise que 'validated' par défaut. NE JAMAIS marquer 'validated' sans relecture par un locuteur compétent.",
+  "tokens": "⟦M⟧ montant · ⟦P⟧ pourcentage · ⟦T⟧ téléphone · ⟦A⟧ compte · ⟦R⟧ référence · ⟦D⟧ date · ⟦E⟧ e-mail · ⟦N⟧ nom · ⟦X⟧ autre · ⟦G⟧ réservé au glossaire (module 2)",
+  "en": "Champ 'en' : texte source anglais (quand le site est en mode EN) ; à remplir avec les vraies pages anglaises."
+ },
+ "entries": [
+  {
+   "id": "nav.banque_en_ligne",
+   "fr": "Banque en ligne",
+   "en": null,
+   "tags": [
+    "nav"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "E bod bënë e dzom ziṅ a nyòl, asu yë na anë mbòg.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Ceux qui sont dans la chair, afin d'être un seul.",
+     "draft_quality": 0.139
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "nav.protocole_test",
+   "fr": "Protocole de test",
+   "en": null,
+   "tags": [
+    "nav"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Mbòg ṅyëbë mbò-esye.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "C'est l'un des serviteurs de la foi.",
+     "draft_quality": 0.191
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "nav.retour_hackathon",
+   "fr": "Retour au hackathon",
+   "en": null,
+   "tags": [
+    "nav"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò hm akëlë kui a nyòl",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Alors il s'en alla chez lui.",
+     "draft_quality": 0.105
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "nav.retour",
+   "fr": "Retour",
+   "en": null,
+   "tags": [
+    "nav",
+    "button"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò hm, akëlë kui a mvus hala.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Il s'en alla donc jusqu'à là.",
+     "draft_quality": 0.047
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "nav.continuer",
+   "fr": "Continuer",
+   "en": null,
+   "tags": [
+    "nav",
+    "button"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Këlëgë kui asu yë na bëkòbò mbòg.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "\"Allez jusqu'à ce qu'on parle en langue.",
+     "draft_quality": 0.1
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "nav.modifier",
+   "fr": "Modifier",
+   "en": null,
+   "tags": [
+    "nav",
+    "button"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Mod ziṅan yadzëṅ na: «Bendëge mbëmbë foe»",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Il y avait un homme qui disait: \"Remettre l'Evangile.\"",
+     "draft_quality": 0.078
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "nav.nouveau_transfert",
+   "fr": "Nouveau transfert",
+   "en": null,
+   "tags": [
+    "nav",
+    "button"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò fë mkpamaṅ mbëmbë foe, asu yë na mëkyëbë a mvus hala.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et l'Evangile de la grâce, afin que je croie en lui-même.",
+     "draft_quality": 0.107
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "nav.votre_compte",
+   "fr": "Votre compte",
+   "en": null,
+   "tags": [
+    "nav"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Asu daan, asu yë na mëyòṅ mam mëte.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "C'est pour nous, afin que je fasse ces choses.",
+     "draft_quality": 0.108
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "nav.transactions_recentes",
+   "fr": "Transactions récentes",
+   "en": null,
+   "tags": [
+    "nav"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Dzam da, asu yë na mëkpamaṅ mam mësë.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Mais afin que je fasse toutes choses.",
+     "draft_quality": 0.125
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "step.solde",
+   "fr": "Solde",
+   "en": null,
+   "tags": [
+    "stepper"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Yë mvòm esë",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "\"Voici tout ce que tu dois dire.\"",
+     "draft_quality": 0.075
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "step.frais",
+   "fr": "Frais",
+   "en": null,
+   "tags": [
+    "stepper",
+    "label",
+    "fees"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Fufulus",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Fufulus, le Seigneur,",
+     "draft_quality": 0.098
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "step.beneficiaire",
+   "fr": "Bénéficiaire",
+   "en": null,
+   "tags": [
+    "stepper",
+    "form"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Beneficiò na:",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et il répondit:",
+     "draft_quality": 0.079
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "step.recapitulatif",
+   "fr": "Récapitulatif",
+   "en": null,
+   "tags": [
+    "stepper"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "step.confirmation",
+   "fr": "Confirmation",
+   "en": null,
+   "tags": [
+    "stepper"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "info.env_test",
+   "fr": "Environnement de test — données fictives, aucune transaction réelle.",
+   "en": null,
+   "tags": [
+    "info"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Engënë bod ziṅ a nyòl, tègè ai e dzom esë.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Quelques-uns sont dans la chair, et ils n'ont rien de tout.",
+     "draft_quality": 0.201
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "info.env_demo",
+   "fr": "Safinum Pay — environnement de démonstration. Ne saisissez aucune donnée personnelle réelle.",
+   "en": null,
+   "tags": [
+    "info"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Safinum Pay Të miayi tòbò e dzi enë ntud.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Ne vous laissez pas baptiser ce qui est faible.",
+     "draft_quality": 0.156
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "solde.bonjour",
+   "fr": "Bonjour, ⟦N1⟧",
+   "en": null,
+   "tags": [
+    "page"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Mbëmbë foe, ⟦N1⟧",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Évangile bon, ⟦N1⟧",
+     "draft_quality": 0.14
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "solde.intro",
+   "fr": "Consultez votre solde et lancez un transfert en toute sécurité.",
+   "en": null,
+   "tags": [
+    "page"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò hm, yëmanan e mam mësë, angakomëzan a saaṅ.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Voyez donc que toutes choses a été prêchées.",
+     "draft_quality": 0.171
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "solde.disponible",
+   "fr": "Solde disponible",
+   "en": null,
+   "tags": [
+    "label"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "solde.numero_compte",
+   "fr": "Numéro de compte : ⟦A1⟧",
+   "en": null,
+   "tags": [
+    "label"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Asu te na: ⟦A1⟧",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "C'est pourquoi il est dit: ⟦A1⟧",
+     "draft_quality": 0.128
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "solde.compte_courant",
+   "fr": "Compte courant",
+   "en": null,
+   "tags": [
+    "label"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò mbëmbë foe",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et l'Evangile s'approcha de lui-même.",
+     "draft_quality": 0.118
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "solde.effectuer_transfert",
+   "fr": "Effectuer un transfert",
+   "en": null,
+   "tags": [
+    "button"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò fë mvulna ṅnyè anë mbëmbë foe.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "C'est aussi l'Evangile qui lui a été donné.",
+     "draft_quality": 0.096
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "solde.consulter_frais",
+   "fr": "Consulter les frais",
+   "en": null,
+   "tags": [
+    "button"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò fë ṅnyie anë mbëmbë foe.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et l'Evangile est un témoignage.",
+     "draft_quality": 0.125
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "solde.paiement_marchand",
+   "fr": "Paiement marchand",
+   "en": null,
+   "tags": [
+    "transaction"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Mbëmbë mbëṅ mbòg.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Un autre est bon.",
+     "draft_quality": 0.089
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "solde.salaire_recu",
+   "fr": "Salaire reçu",
+   "en": null,
+   "tags": [
+    "transaction"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Earnings",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Heureux, c'est-à-dire:",
+     "draft_quality": 0.148
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "solde.transfert_recu",
+   "fr": "Transfert reçu",
+   "en": null,
+   "tags": [
+    "transaction"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò mvulna mbëṅ mvòm esë.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et tout ce qui est vrai, s'éleva de toutes choses.",
+     "draft_quality": 0.087
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "solde.facture_electricite",
+   "fr": "Facture électricité",
+   "en": null,
+   "tags": [
+    "transaction"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Foe ngòn nkunda ziṅ",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "La fille de la grande foule était arrivée devant Jésus.",
+     "draft_quality": 0.142
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "frais.titre",
+   "fr": "Frais de transfert",
+   "en": null,
+   "tags": [
+    "page"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "frais.intro",
+   "fr": "Choisissez le type de transfert et le montant. Les frais sont calculés automatiquement.",
+   "en": null,
+   "tags": [
+    "page"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò hm, dzam da, dzoge mvulna ai efaè. Amu mam mëte mëtunëṅan.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Mais maintenant, lève-toi avec toutes les yeux. Car ces choses sont vaines.",
+     "draft_quality": 0.247
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "frais.type_operation",
+   "fr": "Type d'opération",
+   "en": null,
+   "tags": [
+    "form"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Mod nkòbògò mbëṅ, asu yë na:",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Il y avait une grande foule, afin de dire:",
+     "draft_quality": 0.112
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "frais.compte_safinum",
+   "fr": "Compte Safinum",
+   "en": null,
+   "tags": [
+    "option"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Safinum Account",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Le Fils de l'Eglise, c'est-à-dire.",
+     "draft_quality": 0.084
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "frais.autre_banque",
+   "fr": "Autre banque",
+   "en": null,
+   "tags": [
+    "option"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "frais.instantane_gratuit",
+   "fr": "Transfert instantané et gratuit",
+   "en": null,
+   "tags": [
+    "info",
+    "fees"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ntud, fili-nnëm, akëlë kòm esë.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Mais maintenant, il s'en alla tout.",
+     "draft_quality": 0.143
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "frais.montant_a_envoyer",
+   "fr": "Montant à envoyer",
+   "en": null,
+   "tags": [
+    "form"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò eyòṅ mbëmbë foe, asu yë na bëvòg ziṅ.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Alors l'Evangile fut arrivé, afin quelques-uns d'entre eux.",
+     "draft_quality": 0.119
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "frais.gratuit",
+   "fr": "Gratuit",
+   "en": null,
+   "tags": [
+    "fees"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Bibëlë fufulu, asu yë na bod bëzimbi mbòg.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Nous sommes semblables, afin que l'un et l'autre soient sauvés.",
+     "draft_quality": 0.055
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "frais.total_a_debiter",
+   "fr": "Total à débiter",
+   "en": null,
+   "tags": [
+    "label",
+    "fees"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò mbëmbë asu yë na:",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et la porte, afin que:",
+     "draft_quality": 0.112
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "frais.solde_apres",
+   "fr": "Solde après opération",
+   "en": null,
+   "tags": [
+    "label",
+    "fees"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "E mvòm esë a mvus eyòṅ mam mësë.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Toutes les choses qui sont dans tout ce qu'il faut.",
+     "draft_quality": 0.118
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "benef.intro",
+   "fr": "Renseignez les informations du destinataire. Vérifiez toujours le numéro avant de valider.",
+   "en": null,
+   "tags": [
+    "page"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò fë miayëm e mam mënë nyè. Tòbògan hm ndzoe osusua yë na ayean kalara.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et vous savez ce que je suis. Prenez donc le tribun, avant qu'il fût reçu du livre.",
+     "draft_quality": 0.234
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "benef.avert_nouveau",
+   "fr": "Ce bénéficiaire n'a jamais été utilisé sur ce compte. Vérifiez le numéro avant de continuer.",
+   "en": null,
+   "tags": [
+    "warning",
+    "security"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò e nyò angabë asëki dzam bò asu te. Tòbògò ndzoe osu yë na akë kui.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et celui qui était sans rien ne peut être pour cela. Prenez avant le tribun pour aller.",
+     "draft_quality": 0.235
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "benef.nom",
+   "fr": "Nom du bénéficiaire",
+   "en": null,
+   "tags": [
+    "form"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò hm bëbò na:",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Ils dirent donc:",
+     "draft_quality": 0.139
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "benef.telephone",
+   "fr": "Numéro de téléphone",
+   "en": null,
+   "tags": [
+    "form"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò mbòg ziṅ na:",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et l'un d'eux dit:",
+     "draft_quality": 0.089
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "benef.motif",
+   "fr": "Motif du transfert",
+   "en": null,
+   "tags": [
+    "form"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Mbëmbë mod ziṅ asu daan, asu yë na mëkyëbë.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Un homme bon pour vous, afin que je croie.",
+     "draft_quality": 0.095
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "benef.note",
+   "fr": "Note (optionnel)",
+   "en": null,
+   "tags": [
+    "form"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò fë mbòn na:",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et l'enfant dit:",
+     "draft_quality": 0.094
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "benef.case_verifie",
+   "fr": "J'ai vérifié le nom et le numéro du bénéficiaire.",
+   "en": null,
+   "tags": [
+    "form",
+    "security"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò mëngayen dzoe ai e nyi engabë nyè.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et je vis un nom avec celui qui était en lui.",
+     "draft_quality": 0.186
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "secu.titre",
+   "fr": "Sécurité",
+   "en": null,
+   "tags": [
+    "security"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Asu te akëlë kòm esë",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "C'est pour cela qu'il s'en va tout.",
+     "draft_quality": 0.088
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "secu.verifier_avant_confirmer",
+   "fr": "Vérifiez toujours le nom et le numéro du bénéficiaire avant de confirmer un transfert.",
+   "en": null,
+   "tags": [
+    "security"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Tòbògan hm dzoe ai e nyi bënë nyè, oyab na akad mvulna.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Prenez donc nommé et celui qui est en lui, et ayez l'intelligence.",
+     "draft_quality": 0.159
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "secu.connexion",
+   "fr": "Connexion sécurisée",
+   "en": null,
+   "tags": [
+    "security"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Secured ndòg",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Jésus sécurisit l'un d'eux.",
+     "draft_quality": 0.347
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "recap.intro",
+   "fr": "Vérifiez les informations avant de confirmer le transfert.",
+   "en": null,
+   "tags": [
+    "page"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Biayëm e mam mësë, ndò fë baala nkukuma.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Nous savons tout, et nous avons été roi.",
+     "draft_quality": 0.142
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "recap.montant",
+   "fr": "Montant",
+   "en": null,
+   "tags": [
+    "label"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Amount",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Montant",
+     "draft_quality": 1.0
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "recap.total_debite",
+   "fr": "Total débité",
+   "en": null,
+   "tags": [
+    "label"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò mbëmbë asu yë na bod bësë bëvòg.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et c'est pour tous les autres hommes qu'il est bon.",
+     "draft_quality": 0.094
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "recap.telephone",
+   "fr": "Téléphone",
+   "en": null,
+   "tags": [
+    "label"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Tele nkòbò mbëṅ",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "La témoignage de l'Eglise, c'est-à-dire.",
+     "draft_quality": 0.078
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "recap.reference",
+   "fr": "Référence",
+   "en": null,
+   "tags": [
+    "label"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò hm na:",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Il dit donc:",
+     "draft_quality": 0.054
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "recap.operation",
+   "fr": "Opération",
+   "en": null,
+   "tags": [
+    "label"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Operation",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Fonctionnement",
+     "draft_quality": 0.204
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "recap.case_confirme",
+   "fr": "Je confirme que les informations ci-dessus sont correctes.",
+   "en": null,
+   "tags": [
+    "form",
+    "security"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Mayi kòbò na e mam mësë asu yë na mëkyëbë.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Je veux dire que tout ce qu'il faut, c'est de la justice.",
+     "draft_quality": 0.193
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "recap.confirmer_transfert",
+   "fr": "Confirmer le transfert",
+   "en": null,
+   "tags": [
+    "button"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Adzoe mëkpamaṅ, asu yë na mibòòlò ziṅ.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Après avoir rendu grâces, afin que vous soyez remis.",
+     "draft_quality": 0.132
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "conf.titre",
+   "fr": "Transfert effectué",
+   "en": null,
+   "tags": [
+    "confirmation"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò hm akë kui mbëṅ na:",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Il s'en alla donc dit:",
+     "draft_quality": 0.062
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "conf.message",
+   "fr": "Votre transfert a été envoyé avec succès.",
+   "en": null,
+   "tags": [
+    "confirmation"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò bëngalom mbëmbë foe a nsëṅ.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et ils arrivèrent l'Evangile de la bonté.",
+     "draft_quality": 0.147
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "conf.statut",
+   "fr": "Statut",
+   "en": null,
+   "tags": [
+    "label"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "Status",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Statut",
+     "draft_quality": 1.0
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "conf.succes",
+   "fr": "Succès",
+   "en": null,
+   "tags": [
+    "label"
+   ],
+   "origin": "site",
+   "translations": {
+    "ewondo": {
+     "text": "A mvus yë na: A mëyòṅ, a mam më Zamba.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Après avoir dit: \"Les nations, les paroles de Dieu!\"",
+     "draft_quality": 0.056
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "anticipe.veuillez_confirmer",
+   "fr": "Veuillez confirmer votre opération.",
+   "en": null,
+   "tags": [
+    "confirmation",
+    "anticipated"
+   ],
+   "origin": "anticipé",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò hm, kòbò kalara nyè.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Alors, prenez-le auparavant.",
+     "draft_quality": 0.125
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "anticipe.solde_insuffisant",
+   "fr": "Solde insuffisant.",
+   "en": null,
+   "tags": [
+    "error",
+    "anticipated"
+   ],
+   "origin": "anticipé",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò mbëmbë esye.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et il y avait un bon serviteur.",
+     "draft_quality": 0.114
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "anticipe.montant_invalide",
+   "fr": "Montant invalide.",
+   "en": null,
+   "tags": [
+    "error",
+    "anticipated"
+   ],
+   "origin": "anticipé",
+   "translations": {
+    "ewondo": {
+     "text": "Tègè ai mòni.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Il n'y a point d'argent.",
+     "draft_quality": 0.184
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "anticipe.saisir_montant",
+   "fr": "Veuillez saisir un montant valide.",
+   "en": null,
+   "tags": [
+    "error",
+    "anticipated"
+   ],
+   "origin": "anticipé",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò hm, tsit anë mimfufub.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "La bête est donc sainte.",
+     "draft_quality": 0.159
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "anticipe.champ_obligatoire",
+   "fr": "Ce champ est obligatoire.",
+   "en": null,
+   "tags": [
+    "error",
+    "anticipated"
+   ],
+   "origin": "anticipé",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò fufulu enë obëlë.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et il y aura de l'œuvre qui doit être faite.",
+     "draft_quality": 0.123
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "anticipe.telephone_invalide",
+   "fr": "Numéro de téléphone invalide.",
+   "en": null,
+   "tags": [
+    "error",
+    "anticipated"
+   ],
+   "origin": "anticipé",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò mbëmbë tsig ntol.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et la porte s'élève.",
+     "draft_quality": 0.117
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "anticipe.erreur_reessayer",
+   "fr": "Une erreur est survenue. Veuillez réessayer.",
+   "en": null,
+   "tags": [
+    "error",
+    "anticipated"
+   ],
+   "origin": "anticipé",
+   "translations": {
+    "ewondo": {
+     "text": "Ndò fë mvulna. Ndò hm, mikë kui a nyòl.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Et il y avait une parabole. Et vous êtes allés chez lui.",
+     "draft_quality": 0.185
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "anticipe.operation_echouee",
+   "fr": "Votre opération a échoué.",
+   "en": null,
+   "tags": [
+    "error",
+    "anticipated"
+   ],
+   "origin": "anticipé",
+   "translations": {
+    "ewondo": {
+     "text": "E mam mësòò woe ongabë nyè.",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "C'était tout ce qu'il avait fait.",
+     "draft_quality": 0.114
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  },
+  {
+   "id": "anticipe.frais_mm",
+   "fr": "Frais de transfert : ⟦M1⟧",
+   "en": null,
+   "tags": [
+    "fees",
+    "anticipated"
+   ],
+   "origin": "anticipé",
+   "translations": {
+    "ewondo": {
+     "text": "Transfer charge na: ⟦M1⟧",
+     "status": "draft",
+     "validated_by": null,
+     "validated_on": null,
+     "draft_back_translation": "Payer en répondre: ⟦M1⟧",
+     "draft_quality": 0.102
+    },
+    "bulu": {
+     "text": null,
+     "status": "todo",
+     "validated_by": null,
+     "validated_on": null
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "SAFINUM Langues — Module 1 (extraction & protection)",
+  "version": "0.1.0",
+  "description": "Extrait les textes de SAFINUM, masque les données sensibles et surveille les changements d'écran. Banc d'essai du module 1.",
+  "content_scripts": [
+    {
+      "matches": ["https://safinum.cm/hackathon-test*"],
+      "js": ["privacy.js", "extractor.js", "observer.js", "demo.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ]
+}

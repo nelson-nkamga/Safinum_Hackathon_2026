@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>SAFINUM — page de test</title>
+  <style>body{font:16px system-ui;max-width:560px;margin:32px auto;padding:0 16px}label{display:block;margin:8px 0}button{margin-top:12px;padding:6px 12px}</style>
+</head>
+<body>
+  <h1>Transfert d'argent</h1>
+  <p>Vérifiez les informations avant de confirmer votre transfert.</p>
+  <p><strong>Bénéficiaire :</strong> Jean Dupont</p>
+  <p><strong>Montant :</strong> 50 000 FCFA</p>
+  <p><strong>Frais :</strong> 500 FCFA</p>
+  <p><strong>Total :</strong> 50 500 FCFA</p>
+  <label>Numéro du bénéficiaire <input value="6 70 00 00 00"></label>
+  <button id="confirm">Confirmer le transfert</button>
+  <button id="cancel">Annuler</button>
+  <p id="alert"><em>Attention : ne partagez jamais votre code secret avec une autre personne.</em></p>
+  <div id="live"></div>
+  <button id="inject">Faire apparaître un message inédit</button>
+  <script>
+    document.getElementById("inject").onclick = () => {
+      const p = document.createElement("p");
+      p.textContent = "Votre opération est en attente de validation.";
+      document.getElementById("live").appendChild(p);
+    };
+  </script>
+</body>
+</html>
